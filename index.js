@@ -26,3 +26,9 @@ function appendKitten(name){
   newArray.push(name)
   return newArray
 }
+
+function prependKitten (name){
+  var newArray = kittens.pop()
+  newArray.push(name)
+  return newArray
+}
